@@ -1,0 +1,21 @@
+- hosts: master
+  become: yes
+  tasks:
+    - name: install git
+        apt:
+            name: git
+            state: present
+            force: yes
+
+    - name: pull from git
+        git:
+            repo: https://github.com/ameeno/nodejs-mongo-api.git
+            dest: /home/ubuntu/nodejs-mongo-api
+            update: yes
+            version: master
+
+    - name: Deploy Kubernetes on Cluster
+    command: sh /home/ubuntu/nodejs-mongo-api/Kubernetes-k8s-yaml/kubectl.sh
+    
+    - name: Enable AutoScaling
+    command: sh /home/ubuntu/nodejs-mongo-api/Kubernetes-k8s-yaml/autoscale.sh

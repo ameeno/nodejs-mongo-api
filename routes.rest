@@ -1,0 +1,10 @@
+### THIS IS A ROUTE.REST API TEST FILE for RESTClient on VSCode.
+
+### Simple Get Request
+GET http://localhost/app
+
+### Simple Post request
+POST http://localhost/app HTTP/1.1
+
+### Curl Syntax Post Request
+curl -X POST http://localhost/app 
