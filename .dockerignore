@@ -3,7 +3,12 @@ npm-debug.log
 Dockerfile
 .dockerignore
 .git
-README.md
+README.*
+routes.rest
+Kubernetes-k8s-yaml/*
+ansible-deployment/*
+Images-Diagrams/*
+packages-lock.json
 .gitignore
 .env
 

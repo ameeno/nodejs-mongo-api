@@ -3,7 +3,7 @@ const router = express.Router();
 const DBEntry = require("../models/dbSchema");
 const json2html = require("node-json2html");
 
-let template = { "<>": "div", html: "${_id} ${userDate}" };
+let template = { "<>": "div", "<>": "p", html: "${_id} ${userDate}" };
 
 // Getting all
 router.get("/", async (req, res) => {
