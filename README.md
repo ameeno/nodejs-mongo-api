@@ -2,7 +2,7 @@
 
 NodeJS Simple API built on Node+Express With MongoDB
 
-This API responds to POST requests at http://<IP>/app with a user \_id & timestamp.
+This API responds to POST requests at http://IP/app with a user \_id & timestamp.
 These timestamps are stored in a persistent MongoDB Database.
 IP addresses & User Id's can be retrieved via HTML, by making a GET request.
 
