@@ -9,8 +9,8 @@ ubuntu OS + SSH keys accepting root logins.
 
 ## Intial setup & requirements
 
-Due to differences in different cloud providers api`s and for additional flexibility, You should create your VM/Servers from the cloud providers web gui or cli with credentials.
-Please ensure you use a modern Ubuntu OS and put your SSH public key in the Authorized key`s of each machine (Setup varies for each provider).
+Due to differences in different cloud providers api's and for additional flexibility, You should create your VM/Servers from the cloud providers web gui or cli with credentials.
+Please ensure you use a modern Ubuntu OS and put your SSH public key in the Authorized key's of each machine (Setup varies for each provider).
 
 You can spread your nodes accross regions.
 
